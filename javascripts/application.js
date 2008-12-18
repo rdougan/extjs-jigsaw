@@ -1,6 +1,6 @@
-Ext.ns('SolitaireApp');
+Ext.ns('JigsawApp');
 
 Ext.onReady(function() {
-  var sol = new Ext.ux.Solitaire.Game();
-  sol.launch();
+  var game = new Ext.ux.Jigsaw.Game();
+  game.launch();
 });
